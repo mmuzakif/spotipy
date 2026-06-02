@@ -1,0 +1,105 @@
+{
+    "zaki": {
+        "password": "12345",
+        "history": [],
+        "queue": [],
+        "playcount": {
+            "ride": 2,
+            "lose": 2,
+            "heavenly": 1,
+            "from the start": 3,
+            "ussr anthem": 2
+        },
+        "playlist": {}
+    },
+    "muzaki": {
+        "password": "12345",
+        "history": [],
+        "queue": [],
+        "playcount": {
+            "lose": 1,
+            "from the start": 1,
+            "glimpse of us": 1
+        },
+        "playlist": {
+            "sad": [
+                {
+                    "title": "glimpse of us",
+                    "artist": "joji"
+                }
+            ]
+        }
+    },
+    "fahrul": {
+        "password": "12345",
+        "history": [],
+        "queue": [],
+        "playcount": {},
+        "playllist": {}
+    },
+    "abel": {
+        "password": "12345",
+        "history": [],
+        "queue": [],
+        "playcount": {},
+        "playllist": {}
+    },
+    "gama": {
+        "password": "12345",
+        "history": [],
+        "queue": [],
+        "playcount": {},
+        "playllist": {}
+    },
+    "Kall": {
+        "password": "118899",
+        "history": [
+            {
+                "title": "ride",
+                "artist": "wave to earth"
+            },
+            {
+                "title": "glimpse of us",
+                "artist": "joji"
+            }
+        ],
+        "queue": [],
+        "playcount": {},
+        "playlist": {}
+    },
+    "jek": {
+        "password": "12345",
+        "history": [
+            {
+                "title": "lose",
+                "artist": "niki"
+            }
+        ],
+        "queue": [],
+        "playcount": {},
+        "playlist": {}
+    },
+    "rusdi": {
+        "password": "12345",
+        "history": [
+            {
+                "title": "akhir tak bahagia",
+                "artist": "misellia"
+            },
+            {
+                "title": "akhir tak bahagia",
+                "artist": "misellia"
+            },
+            {
+                "title": "pasilyo",
+                "artist": "sunkissed lola"
+            }
+        ],
+        "queue": [],
+        "playcount": {
+            "akhir tak bahagia": 1,
+            "pasilyo": 1
+        },
+        "playlist": {}
+    }
+}
