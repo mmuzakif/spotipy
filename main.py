@@ -599,3 +599,48 @@ def menu_utama():
                             print("bye")
                     elif pilih_admin == "2":
                         print("coming soon")
+                        print("3. stop")
+                    pilih_admin = input("pilih menu: ")
+                    if pilih_admin == "1":
+                        print("note: pastikan file mp3 sudah ada di folder songs/")
+                        pilih2 = input("continue? (y/n): ")
+                        if pilih2 == "y":
+                            admin_song()
+                        elif pilih2 == "n":
+                            print("bye")
+                    elif pilih_admin == "2":
+                        print("coming soon")
+                    elif pilih_admin == "3":
+                        print("bye")
+                        break
+            else:
+                print("=====You Are Not The Admin========\n")
+
+        elif pilih == "10":
+            made_playlist(current_user)
+
+        elif pilih == "11":
+            see_playlist(current_user)
+
+        elif pilih == "12":
+            print("========Program Ended===============")
+            break
+
+
+# =========================================
+# ENTRY POINT
+# =========================================
+print("1. Login")
+print("2. Sign Up")
+pilih1 = input("pilih menu: ")
+
+if pilih1 == "1":
+    masukan_login = input("masukan username: ")
+    current_user = login(masukan_login)
+    if current_user:
+        menu_utama()
+
+elif pilih1 == "2":
+    current_user = sign_up()
+    if current_user:
+        menu_utama()
